@@ -10,6 +10,7 @@ import PageNotFound from "./pages/page-not-found";
 
 import InboxPage from "./pages/inbox";
 import SentPage from "./pages/sent";
+import LoginPage from "./pages/loginpage";
 import TrashPage from "./pages/trash";
 
 // import FooterComponent from "./components/footer";
@@ -18,6 +19,7 @@ import TrashPage from "./pages/trash";
 // import LogIn from "./components/login";
 // import ArrayComponent from "./components/array";
 import "./css/style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -34,6 +36,7 @@ const App = () => {
           <Route path="sent" element={<SentPage></SentPage>}></Route>
           <Route path="trash" element={<TrashPage></TrashPage>}></Route>
         </Route>
+        <Route path="login" element={<LoginPage></LoginPage>}></Route>
 
         <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
       

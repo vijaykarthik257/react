@@ -107,3 +107,106 @@
   border: 2px solid;
   width: 75%;
 }
+
+.contact_label{
+  width: 200px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.contact_textbox{
+  width: 156px;
+  font-size: 13px;
+  height: 20px;
+}
+
+.form-account{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section{
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.add-section{
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.form-label{
+  display: inline-block;
+  width: 40%;
+  font-size: 20px;
+}
+
+.form-input{
+  font-size: 17px;
+}
+
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.profile_pic{
+  width: 85px;
+  border-radius: 100px;
+}
+
+.style-form{
+  width: 296px;
+  margin-left: 200px;
+}
+
+
+.password-field{
+  width: 86% !important;
+  display: inline-block !important;
+  margin-right: 5px;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+
+.red-text{
+  color: red !important;
+  font-weight: 500;
+}
+
+.loader{
+  width: 20px !important;
+    height: 20px !important;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.home-page{
+  height: 161vh;
+  box-sizing: border-box;
+}
